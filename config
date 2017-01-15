@@ -1,0 +1,9 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "test"]
+	url = git@github.com:houyongliang/hyl_jianli-.git
+	fetch = +refs/heads/*:refs/remotes/test/*
